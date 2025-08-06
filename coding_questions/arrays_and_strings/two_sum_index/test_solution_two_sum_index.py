@@ -1,5 +1,5 @@
 import pytest
-from .solutions_01 import twoSumIndex as twoSumIndex_01
+from .solution_01 import twoSumIndex as twoSumIndex_01
 
 solutions_to_test = [
     twoSumIndex_01,
