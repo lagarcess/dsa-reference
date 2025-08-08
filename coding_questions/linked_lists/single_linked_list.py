@@ -24,3 +24,13 @@ class LinkedList:
         else:
             self.tail.next = new_node
         self.tail = new_node
+
+    def getNodesInArray(self):
+        """Returns a list of node values in the linked list.
+        """
+        nodes = []
+        current = self.head
+        while current:
+            nodes.append(current.value)
+            current = current.next
+        return nodes

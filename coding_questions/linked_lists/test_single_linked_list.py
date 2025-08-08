@@ -70,3 +70,21 @@ def test_tail_pointer_after_multiple_appends(multi_node_list):
     assert ll.tail.value == 5
     assert ll.head.value == 1
     assert ll.tail.next is None
+
+def test_get_nodes_in_array_on_empty_list(empty_list):
+    """Tests getNodesInArray on an empty list."""
+    assert empty_list.getNodesInArray() == []
+
+def test_get_nodes_in_array_on_single_node_list(single_node_list):
+    """Tests getNodesInArray on a list with a single node."""
+    assert single_node_list.getNodesInArray() == [10]
+
+def test_get_nodes_in_array_on_multi_node_list(multi_node_list):
+    """Tests getNodesInArray on a list with multiple nodes."""
+    assert multi_node_list.getNodesInArray() == [1, 2, 3]
+
+def test_get_nodes_in_array_after_append(multi_node_list):
+    """Tests getNodesInArray after appending a new node."""
+    ll = multi_node_list
+    ll.append(4)
+    assert ll.getNodesInArray() == [1, 2, 3, 4]
