@@ -1,13 +1,14 @@
 class LinkedListNode:
-    """Represents a node in a linked list.
-    """
+    """Represents a node in a linked list."""
+
     def __init__(self, value):
         self.value = value
         self.next = None
 
+
 class LinkedList:
-    """Represents a singly linked list.
-    """
+    """Represents a singly linked list."""
+
     def __init__(self, values=None):
         self.head = None
         self.tail = None
@@ -16,8 +17,7 @@ class LinkedList:
                 self.append(value)
 
     def append(self, value):
-        """Appends a new node with the given value to the end of the list.
-        """
+        """Appends a new node with the given value to the end of the list."""
         new_node = LinkedListNode(value)
         if not self.head:
             self.head = new_node
@@ -26,8 +26,7 @@ class LinkedList:
         self.tail = new_node
 
     def getNodesInArray(self):
-        """Returns a list of node values in the linked list.
-        """
+        """Returns a list of node values in the linked list."""
         nodes = []
         current = self.head
         while current:

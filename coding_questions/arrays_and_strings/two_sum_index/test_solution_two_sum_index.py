@@ -11,11 +11,9 @@ test_cases = [
     ([3, 3], 6, [0, 1]),
 ]
 
+
 @pytest.mark.parametrize("solution_func", solutions_to_test)
-@pytest.mark.parametrize(
-    "nums, target, expected",
-    test_cases
-)
+@pytest.mark.parametrize("nums, target, expected", test_cases)
 def test_two_sum_index(solution_func, nums, target, expected):
     result = solution_func(nums, target)
     assert result == expected
