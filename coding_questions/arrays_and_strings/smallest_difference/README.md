@@ -1,0 +1,32 @@
+# Smallest Difference
+
+Write a function that takes in two non-empty arrays of integers, finds the pair of numbers (one from each array) whose absolute difference is closest to zero, and returns an array containing these two numbers, with the number from the first array in the first position.
+
+Note that the absolute difference of two integers is the distance between them on the real number line. For example, the absolute difference of -5 and 5 is 10, and the absolute difference of -5 and -4 is 1. You can assume that there will only be one pair of numbers with the smallest difference.
+
+## Sample Input
+
+```python
+arrayOne = [-1, 5, 10, 20, 28, 3]
+arrayTwo = [26, 134, 135, 15, 17]
+```
+
+## Sample Output
+
+```python
+[28, 26] # 28 from the first array and 26 from the second array have the smallest difference
+```
+
+## Hints
+
+1. Sort both arrays. Then, use two pointers to traverse the arrays and find the smallest difference.
+2. Keep track of the smallest difference found so far and update it whenever a smaller difference is found.
+3. If the current elements pointed to by the two pointers are equal, return them immediately as they have the smallest possible difference of zero.
+4. If the element in the first array is smaller than the element in the second array, move the pointer in the first array to the right to increase the value. Otherwise, move the pointer in the second array to the right to increase its value.
+5. Continue this process until one of the pointers reaches the end of its array.
+6. Return the pair of numbers that have the smallest difference found during the traversal.
+7. The time complexity of this approach is O(n log n + m log m) due to the sorting step, where n and m are the lengths of the two arrays. The space complexity is O(1) if we ignore the space used for sorting.
+
+## Optimal Space & Time Complexity
+
+O(n log n + m log m) time | O(1) space - where n is the length of the first array and m is the length of the second array
