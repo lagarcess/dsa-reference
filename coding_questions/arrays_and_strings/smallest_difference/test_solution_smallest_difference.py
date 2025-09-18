@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import smallestDifference as smallestDifference_01
 from .solution_02 import smallestDifference as smallestDifference_02
 from .solution_03 import smallestDifference as smallestDifference_03
