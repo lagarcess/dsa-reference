@@ -1,5 +1,5 @@
 def moveElementToEnd(array, toMove):
-    # O(n) time | O(1) space
+    # O(n) time | O(1) space, in-place, does not keep order of other elements
     left = 0
     right = len(array) - 1
     while left < right:
