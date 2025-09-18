@@ -2,7 +2,7 @@
 
 You're given an array of integers and a specific integer. Write a function that moves all instances of that integer in the array to the end of the array and returns the modified array.
 
-The function should perform this operation in place (i.e., without creating a new array) and maintain the relative order of the other integers.
+The function should perform this operation in place (i.e., without creating a new array) and doesn't need to maintain the relative order of the other integers.
 
 ### Sample Input
 

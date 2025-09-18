@@ -1,5 +1,5 @@
 def moveElementToEnd(array, toMove):
-    # O(n) space & time, not in-place
+    # O(n) space & time, not in-place, keeps order of other elements
     others = []
     toMoveList = []
 
