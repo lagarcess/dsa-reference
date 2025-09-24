@@ -17,7 +17,7 @@ dsa-reference/
 │ └── 04_big_o_cheatsheet.md
 │
 ├── 💻coding_questions/
-│ ├── 📂arrays_and_strings/
+│ ├── 📂arrays/
 │ │  ├── 🧩two_sum/
 │ │  │ ├── README.md (Problem Statement)
 │ │  │ ├── solution.py (Python Solution)
