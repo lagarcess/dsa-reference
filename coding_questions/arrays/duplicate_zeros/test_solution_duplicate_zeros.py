@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import duplicateZeros as duplicateZeros_01
 
 solutions_to_test = [

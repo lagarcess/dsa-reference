@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .single_linked_list import LinkedList, LinkedListNode
 
 # --- Pytest Fixtures ---

@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import twoNumberSum as twoNumberSum_01
 from .solution_02 import twoNumberSum as twoNumberSum_02
 from .solution_03 import twoNumberSum as twoNumberSum_03

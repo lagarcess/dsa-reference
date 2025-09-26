@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import spiralTraverse as solution_01
 from .solution_02 import spiralTraverse as solution_02
 from .solution_03 import spiralTraverse as solution_03

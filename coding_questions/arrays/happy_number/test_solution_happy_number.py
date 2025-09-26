@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import isHappy as isHappy_01
 from .solution_02 import isHappy as isHappy_02
 from .solution_03 import isHappy as isHappy_03
