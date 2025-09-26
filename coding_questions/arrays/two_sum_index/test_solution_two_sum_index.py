@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import twoSumIndex as twoSumIndex_01
 
 solutions_to_test = [

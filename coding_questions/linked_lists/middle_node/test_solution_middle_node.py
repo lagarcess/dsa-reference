@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from linked_lists.single_linked_list import LinkedList
 from .solution_01 import middleNode as middleNode_01
 from .solution_02 import middleNode as middleNode_02

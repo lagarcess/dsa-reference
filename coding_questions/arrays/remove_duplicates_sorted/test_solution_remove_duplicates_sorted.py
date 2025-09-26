@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import removeDuplicates as removeDuplicates_01
 from .solution_02 import removeDuplicates as removeDuplicates_02
 

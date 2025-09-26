@@ -1,4 +1,4 @@
-import pytest
+import pytest  # type: ignore
 from .solution_01 import moveElementToEnd as moveElementToEnd_01
 from .solution_02 import moveElementToEnd as moveElementToEnd_02
 from .solution_03 import moveElementToEnd as moveElementToEnd_03
