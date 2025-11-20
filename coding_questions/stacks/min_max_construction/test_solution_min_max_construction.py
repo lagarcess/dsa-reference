@@ -1,8 +1,12 @@
 import pytest
 from .solution_01 import MinMaxStack as MinMaxStack_01
+from .solution_02 import MinMaxStack as MinMaxStack_02
+from .solution_03 import MinMaxStack as MinMaxStack_03
 
 solutions_to_test = [
     MinMaxStack_01,
+    MinMaxStack_02,
+    MinMaxStack_03,
 ]
 
 test_cases = [
